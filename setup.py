@@ -10,7 +10,7 @@ setup(
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_sftp"],
     install_requires=[
-        "singer-python==5.9.0",
+        "pipelinewise-singer-python==1.1.3",
         'paramiko==2.6.0',
         'backoff==1.8.0',
         'singer-encodings==0.0.8',
